@@ -1,0 +1,21 @@
+apt install apache2
+apt isntall mariadb
+mysql_secure_installation
+   To fix mysql error: 
+mysql -u root -p
+sudo service mysql start
+apt install php libapache2-mod-php
+vim /var/www/html/index.php
+press I to enter insert mode
+
+<DOCTYPE html>
+
+<html>
+<body>
+
+<? php 
+echo “hello world” ;
+
+?>
+</body>
+</html>
